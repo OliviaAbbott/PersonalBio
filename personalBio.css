@@ -1,0 +1,30 @@
+/*body{
+  margin: 0;
+}*/
+
+#center{
+  text-align:center; 
+}
+
+.links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /*background-color: black;*/
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav_bar {
+    float: left;
+}
+
+a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
