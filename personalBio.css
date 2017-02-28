@@ -1,8 +1,8 @@
 body{
   background-color: Lightblue;
 }
-#center{
-  text-align:center;
+#title{
+  padding-top: 30px;
 }
 
 .links {
@@ -19,16 +19,23 @@ body{
     float: left;
 }
 
-a {
+a.navigation {
     display: block;
-    color: black;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
 }
 
+a {
+  color: black;
+  text-decoration: none;
+
+}
 a:hover{
   color: Indianred;
+}
+
+div li{
+  font-family: "Arial", Arial, serif;
 }
 
 #columns {
